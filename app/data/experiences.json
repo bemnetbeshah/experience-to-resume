@@ -1,0 +1,188 @@
+[
+  {
+    "id": "exp-afri-ai-consultant",
+    "company": "Afri Investment PLC",
+    "title": "Technology & AI Consultant",
+    "location": "Addis Ababa, Ethiopia / Remote",
+    "start": "Jan 2026",
+    "end": "Present",
+    "relevance": "high",
+    "highlights": [
+      "Owned development of an AI-powered market intelligence system (Python, LLM agents) that identified 250+ infrastructure projects and contractors across 11 African countries, enabling pre-tender engagement in high-value markets.",
+      "Productized internal research workflows into a scalable lead-generation pipeline (Python + Excel), reducing manual research effort by 85+ hours/week and creating a structured, reusable database for business development.",
+      "Converted market insights into business outcomes by identifying and enabling engagement with 3 large mining companies initiating major projects in Ethiopia, advancing early-stage client acquisition."
+    ],
+    "technologies": [
+      "Python",
+      "LLM Agents",
+      "RAG / Vector Embeddings",
+      "Excel"
+    ]
+  },
+  {
+    "id": "exp-txst-ai-research",
+    "company": "Texas State University — Computer Science Research Lab",
+    "title": "AI Researcher (Diffusion Models / GNNs)",
+    "location": "San Marcos, TX",
+    "start": "Jan 2026",
+    "end": "Present",
+    "relevance": "high",
+    "highlights": [
+      "Designed a graph-conditioned DDPM pipeline that generates neural-network weight initializations from a zoo of 3,004 converged MNIST CNNs, using PyTorch Geometric heterogeneous graphs with row, slot, and layer node types.",
+      "Trained GNN-based denoisers across 4 architecture iterations (V1–V4) on 8x A5000 GPUs with DDP, EMA, v-prediction, and per-slot normalization, progressing from divergent outputs to numerically stable generation.",
+      "Advancing toward learning transferable weight-initialization distributions across architectures, aiming to improve training efficiency and generalization beyond handcrafted schemes like Kaiming."
+    ],
+    "technologies": [
+      "PyTorch",
+      "PyTorch Geometric",
+      "Diffusion Models (DDPM)",
+      "Graph Neural Networks",
+      "Python"
+    ]
+  },
+  {
+    "id": "exp-hacktx-2025",
+    "company": "HackTX 2025",
+    "title": "Team Lead / Backend Developer (Computer Use Prize Winner)",
+    "location": "Austin, TX",
+    "start": "Oct 2025",
+    "end": "Oct 2025",
+    "relevance": "high",
+    "url": "https://devpost.com/software/orion-7jafvu",
+    "highlights": [
+      "Led a 4-person team to win the Computer Use Prize among 1,000+ participants and 200+ projects, recognized as one of only 20 winning teams.",
+      "Built an AI-driven developer tool using Playwright, Gemini 2.5 Computer Use, and FastAPI that enables coding agents to visually probe, analyze, and interact with live web apps.",
+      "Engineered the orchestrator backend and feedback loop that collects UI data (screenshots, DOM metrics, error states) and reprompts the agent with richer context, enabling autonomous UI debugging and iteration."
+    ],
+    "technologies": [
+      "Playwright",
+      "Gemini 2.5 Computer Use",
+      "FastAPI",
+      "Python"
+    ]
+  },
+  {
+    "id": "exp-ai4all",
+    "company": "AI4ALL Ignite Fellowship",
+    "title": "AI4ALL Ignite Fellow — Wind Energy Site Suitability Project",
+    "location": "Remote",
+    "start": "Aug 2025",
+    "end": "Present",
+    "relevance": "high",
+    "url": "https://github.com/NnennaN123/AI4ALL-Project",
+    "highlights": [
+      "Combined the NREL Wind Toolkit with the US Wind Turbine Database on the basis of physical proximity, creating a labeled geospatial dataset of 120K+ grid cells for turbine-site prediction.",
+      "Engineered 56 features including geographic (state encoding), interaction features (wind × capacity factor), and spatial constraints, systematically testing 12 feature combinations to optimize model performance.",
+      "Achieved XGBoost ROC-AUC 0.9545, Accuracy 0.8783, F1-Score 0.8537 with 94.3% turbine recall — a 30.4% improvement over baseline.",
+      "Deployed the production model to Streamlit; project selected for presentation at the AI4ALL Ignite Fellowship student symposium."
+    ],
+    "technologies": [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Scikit-Learn",
+      "XGBoost",
+      "Matplotlib",
+      "GeoPandas",
+      "Streamlit"
+    ]
+  },
+  {
+    "id": "exp-etta",
+    "company": "ETTA Solutions PLC",
+    "title": "Software Engineering Intern",
+    "location": "Addis Ababa, Ethiopia",
+    "start": "Dec 2022",
+    "end": "Jan 2023",
+    "relevance": "high",
+    "highlights": [
+      "Automated data processing workflows using Python (pandas, NumPy, JSON), reducing manual entry time by over 50%.",
+      "Developed RESTful APIs with FastAPI to expose structured ride data to internal dashboards, enhancing data accessibility.",
+      "Integrated PostgreSQL and standardized the backend data pipeline for efficient querying and reliable analytics reporting.",
+      "Collaborated with engineers using Git/GitHub for version control and to maintain a clean, versioned codebase."
+    ],
+    "technologies": [
+      "Python",
+      "pandas",
+      "NumPy",
+      "FastAPI",
+      "PostgreSQL",
+      "Git",
+      "GitHub"
+    ]
+  },
+  {
+    "id": "exp-afri-investment",
+    "company": "Afri Investment PLC",
+    "title": "Sales and Marketing Assistant (Intern)",
+    "location": "Addis Ababa, Ethiopia",
+    "start": "Jun 2024",
+    "end": "Aug 2024",
+    "relevance": "medium",
+    "highlights": [
+      "Supported sales efforts and onboarded clients during the Big 5 Construct Ethiopia event, gaining experience in communication and customer service.",
+      "Improved online marketing strategies and managed digital profiles post-event to enhance brand visibility."
+    ],
+    "technologies": []
+  },
+  {
+    "id": "exp-chefe-teacher",
+    "company": "Chefe Government School",
+    "title": "Math & Physics Teacher",
+    "location": "Addis Ababa, Ethiopia",
+    "start": "Oct 2022",
+    "end": "Aug 2023",
+    "relevance": "low",
+    "highlights": [
+      "Taught mathematics and physics to 8th-grade students, developing comprehensive lesson plans and assessment strategies.",
+      "Implemented innovative teaching methodologies to improve student engagement and comprehension of complex mathematical concepts.",
+      "Provided individualized support to struggling students and created supplementary materials to reinforce classroom learning."
+    ],
+    "technologies": []
+  },
+  {
+    "id": "exp-ethiochina-tutor",
+    "company": "Ethio-China Primary School",
+    "title": "Volunteer Math & Physics Tutor",
+    "location": "Addis Ababa, Ethiopia",
+    "start": "Oct 2022",
+    "end": "Jun 2023",
+    "relevance": "low",
+    "highlights": [
+      "Taught math and physics to 8th-grade students in one of Addis Ababa's most underdeveloped neighborhoods, addressing severe gaps in educational access and quality.",
+      "Designed and delivered daily lessons for 40+ students, many with limited prior exposure to foundational math and science concepts.",
+      "Raised class pass rate from 30% to over 70% through personalized instruction, targeted assessments, and ongoing mentoring.",
+      "Fostered a supportive learning environment, adapting teaching methods to diverse learning needs and backgrounds."
+    ],
+    "technologies": []
+  },
+  {
+    "id": "exp-flippers-council",
+    "company": "Flippers International School",
+    "title": "Student Council President",
+    "location": "Addis Ababa, Ethiopia",
+    "start": "Sep 2021",
+    "end": "Apr 2024",
+    "relevance": "low",
+    "highlights": [
+      "Led a team of 12 council members to organize events, manage school-wide initiatives, and address student concerns, fostering better communication between students and administration.",
+      "Founded the school's first official Basketball and Football teams, securing funding, recruiting players, and organizing training schedules to establish a strong athletic program."
+    ],
+    "technologies": []
+  },
+  {
+    "id": "exp-ayat-park-volunteer",
+    "company": "Ayat Zone 5 Park Volunteer Project",
+    "title": "Community Development Volunteer",
+    "location": "Addis Ababa, Ethiopia",
+    "start": "Mar 2021",
+    "end": "May 2024",
+    "relevance": "low",
+    "highlights": [
+      "Provided physical labor to set up and maintain park infrastructure according to project specifications, including planting trees and constructing recreational facilities.",
+      "Worked to ensure effective and efficient daily maintenance of public spaces, maintaining the appearance and cleanliness of park areas and meeting rooms.",
+      "Assisted with inventory, maintenance, and storage of project equipment and materials, ensuring proper organization and accessibility."
+    ],
+    "technologies": []
+  }
+]

@@ -1,0 +1,177 @@
+[
+  {
+    "id": "project-hsp-automation",
+    "name": "HSP / VetHUB Compliance Automation Tool",
+    "url": null,
+    "start": "May 2026",
+    "end": "Present",
+    "relevance": "high",
+    "highlights": [
+      "Built and shipped an automation tool that generates audit-ready HUB Subcontracting Plan (HSP) packets for Texas public-sector construction bids, delivered to a first paying client through my company, Renvane AI.",
+      "Engineered a pipeline that scrapes the Texas CMBL/VetHUB vendor site by trade/NIGP code, verifies vendor business descriptions and active certifications, prioritizes vendors nearest Austin, and exports up to 3 approved vendor-evidence PDFs per code as an organized zip with duplicate detection.",
+      "Reduced a ~8-hour manual HSP packet process to ~30–60 minutes (~7 hours saved per bid; ~$2,100/month recovered value at client volume).",
+      "Added automated re-checking to catch expiring certifications, and authored a PRD, V2 plan, and web-frontend roadmap (public web app, Slack integration, vendor-PDF database, search history)."
+    ],
+    "technologies": [
+      "Python",
+      "Web Scraping / Browser Automation",
+      "PDF Generation",
+      "VPS"
+    ]
+  },
+  {
+    "id": "project-afri-outreach",
+    "name": "Afri Outreach Automation — Multi-Agent B2B Outreach Pipeline",
+    "url": null,
+    "start": "Apr 2026",
+    "end": "Present",
+    "relevance": "high",
+    "highlights": [
+      "Designed a multi-agent AI pipeline (research → drafting → copy-polish agents) that generates personalized B2B email and WhatsApp outreach for Afri Investment, targeting East African infrastructure prospects with a human review gate before any send.",
+      "Modeled a Supabase (Postgres) schema (subsidiaries → companies → contacts) with pgvector(1536) research embeddings and an internal knowledge-base table for positioning.",
+      "Implemented human-in-the-loop approval via Gmail drafts and a Telegram bot, with state tracking/deduplication against in-flight conversations, dated run-output folders, and cron polling every 10–15 minutes for new companies.",
+      "Drafted outreach across 24+ prospects (South Sudan, Somalia, Somaliland) as part of a 343+ prospect database."
+    ],
+    "technologies": [
+      "Python",
+      "Supabase (Postgres + pgvector)",
+      "OpenRouter (GLM-5.1)",
+      "Gmail API",
+      "Telegram Bot",
+      "cron"
+    ]
+  },
+  {
+    "id": "project-openclaw",
+    "name": "OpenClaw — Personal Multi-Agent AI System",
+    "url": null,
+    "start": "Apr 2026",
+    "end": "Present",
+    "relevance": "high",
+    "highlights": [
+      "Architected a self-hosted 5-agent personal AI system with explicit per-agent model assignments and tool allowlists (main/coder, calendar, summarizer, outreach), operating across messaging platforms.",
+      "Consolidated the system from 6 to 5 agents, sandboxed the coder agent, and configured per-use-case model fallback chains across Codex, GLM, Kimi, and DeepSeek via OpenRouter.",
+      "Runs native cron jobs, sub-agent delegation, per-thread model assignment, and scheduled daily priority reminders."
+    ],
+    "technologies": [
+      "OpenClaw",
+      "OpenRouter (multi-model routing)",
+      "MCP",
+      "Telegram",
+      "VPS"
+    ]
+  },
+  {
+    "id": "project-tonetrace",
+    "name": "ToneTrace — Intelligent Writing Analytics for Educators",
+    "url": "https://github.com/bemnetbeshah/tonetrace",
+    "start": "Jul 2025",
+    "end": "Present",
+    "relevance": "high",
+    "highlights": [
+      "Built a modular FastAPI backend to analyze text for tone, sentiment, formality, and passive voice using HuggingFace transformers for multi-label emotion classification.",
+      "Designed analyzers for lexical diversity and writing complexity, with a scalable architecture supporting future LLM-based personalization and anomaly detection.",
+      "Integrated PostgreSQL to store per-user writing history, enabling fingerprinting and graph-based insights on tone/style trends over time.",
+      "Automated Docker workflows with Bash/Shell for containerization, image optimization, and service orchestration, improving deployment speed and reliability; built on Linux.",
+      "Advancing ToneTrace into an educational platform to improve quality of education for students learning writing and language. Live app: https://tonetrace.vercel.app/"
+    ],
+    "technologies": [
+      "FastAPI",
+      "PostgreSQL",
+      "Docker",
+      "HuggingFace Transformers",
+      "Python",
+      "Bash/Shell",
+      "Linux"
+    ]
+  },
+  {
+    "id": "project-eth-momentum",
+    "name": "Quantitative Trading Research — ETH/USDT Momentum Strategies",
+    "url": "https://github.com/bemnetbeshah/Trading",
+    "start": "2025",
+    "end": "2025",
+    "relevance": "high",
+    "highlights": [
+      "Investigated whether hourly momentum is a real effect in ETH using 8 years of data with walk-forward validation (365d train / 90d test, frozen parameters, rolling forward).",
+      "Identified consistent signal strength: optimal windows clustered in the 14–24h range ~78% of the time across all periods, suggesting non-random structure rather than curve-fit noise.",
+      "Built a pandas backtest engine with 1-bar execution delay and 0.13% per-side cost model, clipped by an EMA50/200 trend filter.",
+      "Final strategy remained profitable post-costs but did not outperform buy-and-hold on a risk-adjusted basis: Strategy AR 29.5%, Sharpe 0.72, Calmar 0.32, Max DD 93.1%; Buy-and-Hold AR 31.1%, Sharpe 0.75, Calmar 0.33, Max DD 94.3%.",
+      "Risk controls improved realism (trade count 69,351 → 2,722 with a 24h min-hold) but the system still suffered catastrophic drawdowns and needs volatility targeting / position throttling before live use.",
+      "Concluded that ETH momentum is real at the 14–24h horizon, but without advanced risk systems it is not economically superior to passive exposure despite being directionally profitable."
+    ],
+    "technologies": [
+      "Python",
+      "Pandas",
+      "NumPy"
+    ]
+  },
+  {
+    "id": "project-solo-leveling",
+    "name": "Solo Leveling-Inspired Self-Improvement Web App",
+    "url": "https://github.com/bemnetbeshah/solo-leveling-real-life",
+    "start": "2025",
+    "end": "2025",
+    "relevance": "medium",
+    "highlights": [
+      "Engineered a full-stack RPG-style self-improvement platform enabling users to set quests, track XP, and level up attributes such as Discipline, Strength, and Mindfulness.",
+      "Integrated Firebase Authentication for secure user management and persistent per-user quest and progress data.",
+      "Designed modular React components for quest management, XP tracking, and a responsive dark-themed dashboard UI using Tailwind CSS.",
+      "Structured real-time data storage with Firestore, enabling efficient retrieval of user quests, XP history, and profile information across devices. Live app: https://solo-leveling-real-life.vercel.app/"
+    ],
+    "technologies": [
+      "React",
+      "Tailwind CSS",
+      "Firebase",
+      "Firestore",
+      "JavaScript"
+    ]
+  },
+  {
+    "id": "project-algo-trading-bots",
+    "name": "Algorithmic Trading Bots",
+    "url": "https://github.com/bemnetbeshah/Trading",
+    "start": "2025",
+    "end": "2025",
+    "relevance": "medium",
+    "highlights": [
+      "Developed and back-tested Python trading bots with modular strategies using the QuantConnect platform.",
+      "Implemented real-time sentiment analysis using Twitter/NLP filters to inform trade signals.",
+      "Built risk management systems with stop-loss mechanisms and backtesting environments for parameter optimization."
+    ],
+    "technologies": [
+      "Python",
+      "QuantConnect",
+      "NLP"
+    ]
+  },
+  {
+    "id": "project-reddit-welcome-bot",
+    "name": "Reddit Welcome Bot",
+    "url": null,
+    "start": "2025",
+    "end": "2025",
+    "relevance": "low",
+    "highlights": [
+      "Created a Python automation tool to enhance subreddit engagement with intelligent welcome message templates, error handling, and analytics tracking."
+    ],
+    "technologies": [
+      "Python",
+      "Reddit API"
+    ]
+  },
+  {
+    "id": "project-study-quiz-game",
+    "name": "Study Quiz Game",
+    "url": null,
+    "start": "2025",
+    "end": "2025",
+    "relevance": "low",
+    "highlights": [
+      "Built a command-line quiz game with file management/I/O, leaderboards, and gamification features using OOP principles in C++."
+    ],
+    "technologies": [
+      "C++"
+    ]
+  }
+]

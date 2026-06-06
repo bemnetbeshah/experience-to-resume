@@ -1,0 +1,65 @@
+{
+  "Languages": [
+    "Python",
+    "C++",
+    "R",
+    "JavaScript",
+    "SQL"
+  ],
+  "Frameworks & Libraries": [
+    "FastAPI",
+    "React",
+    "Tailwind CSS",
+    "HTML/CSS",
+    "REST APIs",
+    "NumPy",
+    "Pandas",
+    "Scikit-Learn",
+    "XGBoost",
+    "GeoPandas",
+    "Matplotlib",
+    "HuggingFace Transformers",
+    "PyTorch",
+    "PyTorch Geometric",
+    "Streamlit"
+  ],
+  "Machine Learning": [
+    "Supervised Classification",
+    "Model Evaluation (ROC-AUC, F1)",
+    "Imbalanced Learning",
+    "Feature Engineering",
+    "Diffusion Models (DDPM)",
+    "Graph Neural Networks"
+  ],
+  "Databases": [
+    "PostgreSQL",
+    "Supabase (Postgres + pgvector)",
+    "Firebase/Firestore"
+  ],
+  "AI & Agents": [
+    "Multi-Agent Systems",
+    "LLM Orchestration",
+    "MCP",
+    "OpenRouter (multi-model routing)",
+    "RAG / Vector Embeddings",
+    "LLM Agents"
+  ],
+  "DevOps & Tools": [
+    "Git",
+    "GitHub",
+    "Docker",
+    "Linux Bash/Shell",
+    "Vercel",
+    "VPS / Self-Hosting",
+    "Web Scraping / Browser Automation",
+    "Telegram Bot",
+    "cron",
+    "QuantConnect",
+    "Playwright",
+    "Reddit API"
+  ],
+  "Spoken Languages": [
+    "English",
+    "Amharic"
+  ]
+}

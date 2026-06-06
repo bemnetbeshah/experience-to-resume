@@ -1,0 +1,123 @@
+@page {
+  size: Letter;
+  margin: 0.5cm 0.8cm;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #000000;
+  font-family: "Charter", "Bitstream Charter", Georgia, "Times New Roman", serif;
+  font-size: 10pt;
+  line-height: 1.25;
+  margin: 0;
+}
+
+/* Header */
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 19pt;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0 0 3px;
+}
+
+.contact {
+  font-size: 10pt;
+}
+
+.contact .sep-item + .sep-item::before {
+  content: "  |  ";
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Centered italic tagline (summary) */
+.tagline {
+  font-style: italic;
+  margin: 4px 0 6px;
+  text-align: center;
+}
+
+/* Sections */
+section {
+  break-inside: avoid;
+  margin-top: 8px;
+}
+
+h2 {
+  border-bottom: 0.6pt solid #000000;
+  font-size: 11pt;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  margin: 0 0 4px;
+  padding-bottom: 2px;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 0;
+}
+
+.skills {
+  line-height: 1.3;
+}
+
+/* Entries */
+.entry {
+  break-inside: avoid;
+  margin-bottom: 6px;
+}
+
+.entry:last-child {
+  margin-bottom: 0;
+}
+
+.item-heading,
+.item-subheading {
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.item-heading span,
+.item-subheading span {
+  white-space: nowrap;
+}
+
+.item-subheading {
+  font-style: italic;
+}
+
+/* Bullets */
+ul {
+  margin: 2px 0 0;
+  padding-left: 16px;
+}
+
+li {
+  margin: 0 0 1px;
+  padding-left: 2px;
+}
+
+/* Compact "Additional" entries: one heading line + one bullet line */
+.compact-entry {
+  break-inside: avoid;
+  margin-bottom: 4px;
+}
+
+.compact-entry:last-child {
+  margin-bottom: 0;
+}
+
+.compact-bullet {
+  margin: 1px 0 0;
+}

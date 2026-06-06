@@ -1,0 +1,28 @@
+AI Engineer
+
+About the role:
+We are hiring an AI Engineer to design, build, and ship LLM-powered features
+in production. You will own the full lifecycle: prototyping with foundation
+models, building retrieval and tool-use pipelines, evaluating quality, and
+deploying reliable services that scale.
+
+Responsibilities:
+- Build and optimize LLM application pipelines (RAG, tool use, agents).
+- Design evaluation harnesses and offline/online metrics for model quality.
+- Develop and maintain Python backend services and APIs.
+- Collaborate with product to turn ambiguous problems into shipped features.
+- Improve latency, cost, and reliability of inference workloads.
+- Apply prompt engineering and structured-output techniques.
+
+Required skills:
+- Strong Python.
+- Experience with LLM APIs (OpenAI, Anthropic, or similar).
+- Building RAG or retrieval systems and working with vector databases.
+- Solid software engineering fundamentals (testing, version control, CI).
+- Data pipelines and working with APIs.
+
+Preferred skills:
+- Experience with agent frameworks and tool-calling.
+- Model evaluation / experimentation.
+- Cloud deployment (AWS/GCP), Docker, observability.
+- Frontend basics for internal tooling.

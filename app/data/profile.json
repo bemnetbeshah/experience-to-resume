@@ -1,0 +1,40 @@
+{
+  "contact": {
+    "name": "Bemnet Beshah",
+    "email": "bemnetbeshah@gmail.com",
+    "phone": "+1 (512) 210-1034",
+    "location": "San Marcos, TX",
+    "links": [
+      {
+        "label": "github.com/bemnetbeshah",
+        "url": "https://github.com/bemnetbeshah"
+      },
+      {
+        "label": "linkedin.com/in/bemnetbeshah",
+        "url": "https://linkedin.com/in/bemnetbeshah"
+      },
+      {
+        "label": "renvane.com",
+        "url": "https://renvane.com"
+      }
+    ]
+  },
+  "summary": "Math and Computer Science student interested in AI, data science, machine learning, backend development, and research.",
+  "education": [
+    {
+      "institution": "Texas State University",
+      "degree": "Bachelor of Science in Computer Science & Mathematics (Honors)",
+      "location": "San Marcos, TX",
+      "start": "2024",
+      "end": "May 2028 (Expected)",
+      "highlights": [
+        "GPA: 4.00, Honors College.",
+        "Relevant coursework: Linear Algebra, Data Structures and Algorithms, Proof-Based Math, Probability and Statistics, Discrete Math, Real Analysis, Numerical Analysis, Abstract Algebra, Calculus 3, Topology, Differential Equations, Communications, College Writing."
+      ]
+    }
+  ],
+  "achievements": [
+    "Won the Computer Use Prize at HackTX 2025, one of only 20 winning teams among 1,000+ participants and 200+ projects.",
+    "AI4ALL Ignite Fellow; wind energy project selected for the AI4ALL Ignite Fellowship student symposium."
+  ]
+}

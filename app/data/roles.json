@@ -1,0 +1,334 @@
+{
+  "roles": [
+    {
+      "match": [
+        "ai engineer",
+        "ai/ml engineer",
+        "artificial intelligence engineer",
+        "genai engineer",
+        "generative ai engineer",
+        "llm engineer"
+      ],
+      "analysis": {
+        "role_title": "AI Engineer",
+        "company": null,
+        "required_skills": [
+          "Python",
+          "Machine Learning",
+          "LLMs / Generative AI",
+          "REST APIs",
+          "Prompt Engineering",
+          "Data Pipelines"
+        ],
+        "preferred_skills": [
+          "RAG / Vector Databases",
+          "Multi-Agent Systems",
+          "PyTorch or TensorFlow",
+          "MLOps",
+          "Docker",
+          "Cloud (AWS/GCP)",
+          "Model Evaluation"
+        ],
+        "responsibilities": [
+          "Design and build AI- and LLM-powered features and services.",
+          "Develop, evaluate, and iterate on machine learning models.",
+          "Integrate models into production APIs and data pipelines.",
+          "Collaborate with product and engineering teams to ship reliable AI systems."
+        ],
+        "keywords": [
+          "AI",
+          "LLM",
+          "machine learning",
+          "generative AI",
+          "Python",
+          "RAG",
+          "agents",
+          "model deployment"
+        ],
+        "resume_angle": "Position as an AI engineer who designs and ships LLM- and ML-powered systems end to end."
+      }
+    },
+    {
+      "match": [
+        "backend engineer",
+        "back end engineer",
+        "back-end engineer",
+        "backend developer",
+        "backend software engineer"
+      ],
+      "analysis": {
+        "role_title": "Backend Engineer",
+        "company": null,
+        "required_skills": [
+          "Python",
+          "REST APIs",
+          "SQL / PostgreSQL",
+          "Databases",
+          "API Design",
+          "Git",
+          "Testing"
+        ],
+        "preferred_skills": [
+          "FastAPI",
+          "Docker",
+          "Cloud (AWS/GCP)",
+          "CI/CD",
+          "Microservices",
+          "Caching",
+          "Message Queues"
+        ],
+        "responsibilities": [
+          "Design, build, and maintain scalable backend services and APIs.",
+          "Model and optimize relational databases and queries.",
+          "Ensure reliability, performance, and security of services.",
+          "Collaborate with frontend and product teams to deliver features."
+        ],
+        "keywords": [
+          "backend",
+          "API",
+          "REST",
+          "PostgreSQL",
+          "FastAPI",
+          "scalability",
+          "microservices",
+          "Docker"
+        ],
+        "resume_angle": "Position as a backend engineer focused on reliable, performant APIs and data systems."
+      }
+    },
+    {
+      "match": [
+        "data scientist",
+        "data science",
+        "ds",
+        "applied data scientist"
+      ],
+      "analysis": {
+        "role_title": "Data Scientist",
+        "company": null,
+        "required_skills": [
+          "Python",
+          "Statistics",
+          "Machine Learning",
+          "Pandas",
+          "NumPy",
+          "SQL",
+          "Data Visualization"
+        ],
+        "preferred_skills": [
+          "Scikit-Learn",
+          "Model Evaluation (ROC-AUC, F1)",
+          "Feature Engineering",
+          "Experimentation / A-B Testing",
+          "XGBoost",
+          "Jupyter"
+        ],
+        "responsibilities": [
+          "Analyze data to extract actionable, decision-driving insights.",
+          "Build, validate, and evaluate predictive models.",
+          "Design experiments and define success metrics.",
+          "Communicate findings clearly to technical and non-technical stakeholders."
+        ],
+        "keywords": [
+          "data science",
+          "machine learning",
+          "statistics",
+          "Python",
+          "pandas",
+          "modeling",
+          "ROC-AUC",
+          "feature engineering"
+        ],
+        "resume_angle": "Position as a data scientist who turns data into validated models and clear insights."
+      }
+    },
+    {
+      "match": [
+        "machine learning engineer",
+        "ml engineer",
+        "mle",
+        "machine-learning engineer"
+      ],
+      "analysis": {
+        "role_title": "Machine Learning Engineer",
+        "company": null,
+        "required_skills": [
+          "Python",
+          "Machine Learning",
+          "Scikit-Learn",
+          "Model Training & Evaluation",
+          "SQL",
+          "Data Pipelines",
+          "Git"
+        ],
+        "preferred_skills": [
+          "PyTorch or TensorFlow",
+          "MLOps",
+          "Docker",
+          "Cloud (AWS/GCP)",
+          "Feature Engineering",
+          "XGBoost",
+          "Model Deployment"
+        ],
+        "responsibilities": [
+          "Build, train, and deploy machine learning models to production.",
+          "Develop data and feature pipelines for training and inference.",
+          "Monitor, evaluate, and improve model performance over time.",
+          "Collaborate with data science and backend teams."
+        ],
+        "keywords": [
+          "machine learning",
+          "ML engineer",
+          "model deployment",
+          "scikit-learn",
+          "MLOps",
+          "Python",
+          "pipelines"
+        ],
+        "resume_angle": "Position as an ML engineer who builds, trains, and ships production machine learning systems."
+      }
+    },
+    {
+      "match": [
+        "full stack engineer",
+        "fullstack engineer",
+        "full-stack engineer",
+        "full stack developer",
+        "fullstack developer",
+        "full-stack developer"
+      ],
+      "analysis": {
+        "role_title": "Full Stack Engineer",
+        "company": null,
+        "required_skills": [
+          "JavaScript",
+          "React",
+          "HTML/CSS",
+          "REST APIs",
+          "Python or Node.js",
+          "SQL / Databases",
+          "Git"
+        ],
+        "preferred_skills": [
+          "FastAPI",
+          "TypeScript",
+          "Tailwind CSS",
+          "Firebase",
+          "Docker",
+          "Cloud Deployment (Vercel/AWS)",
+          "CI/CD"
+        ],
+        "responsibilities": [
+          "Build end-to-end web features across frontend and backend.",
+          "Design responsive UIs and the APIs that support them.",
+          "Integrate databases and third-party services.",
+          "Ship and maintain production web applications."
+        ],
+        "keywords": [
+          "full stack",
+          "React",
+          "frontend",
+          "backend",
+          "REST API",
+          "JavaScript",
+          "FastAPI",
+          "web app"
+        ],
+        "resume_angle": "Position as a full-stack engineer who ships complete web products front to back."
+      }
+    },
+    {
+      "match": [
+        "software engineer",
+        "software developer",
+        "swe",
+        "software development engineer",
+        "sde"
+      ],
+      "analysis": {
+        "role_title": "Software Engineer",
+        "company": null,
+        "required_skills": [
+          "Python or C++",
+          "Data Structures & Algorithms",
+          "REST APIs",
+          "SQL",
+          "Git",
+          "Testing",
+          "Problem Solving"
+        ],
+        "preferred_skills": [
+          "FastAPI",
+          "Docker",
+          "Cloud (AWS/GCP)",
+          "CI/CD",
+          "System Design",
+          "JavaScript"
+        ],
+        "responsibilities": [
+          "Design, build, and maintain software systems and features.",
+          "Write clean, tested, maintainable code.",
+          "Collaborate across teams to ship products.",
+          "Debug, profile, and optimize performance."
+        ],
+        "keywords": [
+          "software engineer",
+          "algorithms",
+          "API",
+          "Python",
+          "system design",
+          "testing",
+          "Git"
+        ],
+        "resume_angle": "Position as a versatile software engineer who designs and ships reliable systems."
+      }
+    },
+    {
+      "match": [
+        "quantitative researcher",
+        "quant researcher",
+        "quant",
+        "quantitative analyst",
+        "quantitative research"
+      ],
+      "analysis": {
+        "role_title": "Quantitative Researcher",
+        "company": null,
+        "required_skills": [
+          "Python",
+          "Statistics",
+          "Probability",
+          "Pandas",
+          "NumPy",
+          "Backtesting",
+          "Time-Series Analysis"
+        ],
+        "preferred_skills": [
+          "Machine Learning",
+          "Linear Algebra",
+          "Risk Management",
+          "Financial Markets",
+          "C++",
+          "Optimization"
+        ],
+        "responsibilities": [
+          "Research, prototype, and validate quantitative trading strategies.",
+          "Build backtests and statistical models with rigorous validation.",
+          "Analyze risk, performance, and robustness metrics.",
+          "Communicate findings and assumptions clearly and honestly."
+        ],
+        "keywords": [
+          "quant",
+          "quantitative research",
+          "backtesting",
+          "time series",
+          "statistics",
+          "Python",
+          "trading",
+          "Sharpe"
+        ],
+        "resume_angle": "Position as a quantitative researcher who rigorously tests strategies with statistics and code."
+      }
+    }
+  ]
+}

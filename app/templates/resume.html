@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ resume.name }} - Resume</title>
+  </head>
+  <body>
+    <header>
+      <h1>{{ resume.name }}</h1>
+      <div class="contact">
+        <span class="sep-item">{{ resume.email }}</span>
+        {% for link in resume.links %}
+        <span class="sep-item"><a href="{{ link.url }}">{{ link.label }}</a></span>
+        {% endfor %}
+        <span class="sep-item">{{ resume.phone }}</span>
+      </div>
+    </header>
+
+    {% if resume.summary %}
+    <p class="tagline">{{ resume.summary }}</p>
+    {% endif %}
+
+    <section>
+      <h2>Education</h2>
+      {% for item in resume.education %}
+      <div class="entry">
+        <div class="item-heading">
+          <strong>{{ item.institution }}</strong>
+          <span>{{ item.location }}</span>
+        </div>
+        <div class="item-subheading">
+          <span>{{ item.degree }}</span>
+          <span>{{ item.start }} &ndash; {{ item.end }}</span>
+        </div>
+        {% if item.highlights %}
+        <ul>
+          {% for highlight in item.highlights %}
+          <li>{{ highlight }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <p class="skills">{{ resume.skills | join(", ") }}</p>
+    </section>
+
+    {% set full_sections = resume.sections | selectattr("layout", "equalto", "full") | list %}
+    {% for section_name, items in full_sections | groupby("section_name") %}
+    <section>
+      <h2>{{ section_name }}</h2>
+      {% for item in items %}
+      <div class="entry">
+        <div class="item-heading">
+          <strong>
+            {% if item.url and not item.organization %}<a href="{{ item.url }}">{{ item.item_title }}</a>
+            {% else %}{{ item.organization or item.item_title }}{% endif %}
+          </strong>
+          {% if item.location %}<span>{{ item.location }}</span>{% endif %}
+        </div>
+        {% if item.organization or item.date_range %}
+        <div class="item-subheading">
+          {% if item.organization %}
+            {% if item.url %}<a href="{{ item.url }}">{{ item.item_title }}</a>{% else %}<span>{{ item.item_title }}</span>{% endif %}
+          {% else %}<span></span>{% endif %}
+          {% if item.date_range %}<span>{{ item.date_range }}</span>{% endif %}
+        </div>
+        {% endif %}
+        <ul>
+          {% for bullet in item.bullets %}
+          <li>{{ bullet.text }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </section>
+    {% endfor %}
+
+    {% set compact_sections = resume.sections | selectattr("layout", "equalto", "compact") | list %}
+    {% if compact_sections %}
+    <section>
+      <h2>Additional Experience &amp; Projects</h2>
+      {% for item in compact_sections %}
+      <div class="compact-entry">
+        <div class="item-heading">
+          <strong>
+            {% if item.organization %}{{ item.organization }} &mdash; {{ item.item_title }}
+            {% elif item.url %}<a href="{{ item.url }}">{{ item.item_title }}</a>
+            {% else %}{{ item.item_title }}{% endif %}
+          </strong>
+          {% if item.date_range %}<span>{{ item.date_range }}</span>{% endif %}
+        </div>
+        {% if item.bullets %}<p class="compact-bullet">{{ item.bullets[0].text }}</p>{% endif %}
+      </div>
+      {% endfor %}
+    </section>
+    {% endif %}
+
+    {% if resume.achievements %}
+    <section>
+      <h2>Achievements</h2>
+      <ul>
+        {% for achievement in resume.achievements %}
+        <li>{{ achievement }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+  </body>
+</html>
